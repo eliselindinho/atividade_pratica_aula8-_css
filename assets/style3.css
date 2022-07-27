@@ -1,0 +1,22 @@
+:root {
+  --background-main: yellow;
+  --background-header: red;
+  --background-footer: blue;
+}
+
+header {
+  background-color: var(--background-header);
+  width: 100%;
+  height: 100px;
+}
+main {
+  background-color: var(--background-main);
+  width: 100%;
+  height: calc(100vh - 200px);
+}
+
+footer {
+  background-color: var(--background-footer);
+  width: 100%;
+  height: 100px;
+}

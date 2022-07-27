@@ -1,0 +1,25 @@
+:root {
+  --cor-h1: blue;
+  --cor-h2: red;
+  --cor-h3: green;
+  --cor-h4: orange;
+}
+
+body {
+  color: var(--cor-h1);
+  color: var(--cor-h2);
+  color: var(--cor-h3);
+  color: var(--cor-h4);
+}
+h1 {
+  color: var(--cor-h1);
+}
+h2 {
+  color: var(--cor-h2);
+}
+h3 {
+  color: var(--cor-h3);
+}
+h4 {
+  color: var(--cor-h4);
+}
